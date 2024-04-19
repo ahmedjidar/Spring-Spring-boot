@@ -14,7 +14,7 @@ public class Main {
         StudentService studentService = context.getBean(StudentService.class);
 
         // Création d'un étudiant
-        Student student1 = new Student(1, "Douae", "EL HILA");
+        Student student1 = new Student(1, "Ahmed Amin", "JIDAR");
 
         // Enregistrement de l'étudiant
         studentService.createStudent(student1);
